@@ -15,6 +15,7 @@ class Device extends Model
         'brand', 
         'model', 
         'damage', 
+        'observation',
         'repairs', 
         'repair_cost', 
         'pickup_date', 

@@ -31,7 +31,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="cedula">Nombre:</label>
+                        <label for="cedula">Cedula:</label>
                         <input type="text" id="cedula" name="cedula" value="{{ $client->cedula }}" required>
                     </div>
                     

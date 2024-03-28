@@ -25,6 +25,7 @@ class DeviceController extends Controller
 
     public function store(Request $request)
     {
+        Log::info('Datos - '.json_encode($request->all()));
         Device::create($request->all());
         return redirect()->route('devices.index');
     }

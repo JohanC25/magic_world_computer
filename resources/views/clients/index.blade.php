@@ -32,6 +32,7 @@
                         <thead>
                             <tr>
                                 <th>Nombre</th>
+                                <th>Cédula</th>
                                 <th>Número Celular</th>
                                 <th>Correo Electronico</th>
                                 <th>Dirección</th>
